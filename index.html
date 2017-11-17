@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <!-- url = {{page.url}} -->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="date" content="{{ site.time }}" scheme="YYYY-MM-DD HH:MM:SS TTTT">
+        <meta name='revision' content='{{ site.github.build_revision }}'>
+    
+        <title>
+            DB Bahn Viewer -- ish
+        </title>
+        
+        <!--Import Google Icon Font -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- Import materialize -->
+        <link type="text/css" rel="stylesheet" href="/public/materialize/css/materialize.min.css"  media="screen,projection"/>
+        
+        <!-- And font awesome -->
+        <link type="text/css" rel="stylesheet" href="/public/font-awesome-4.7.0/css/font-awesome.min.css"  media="screen,projection"/>
+    
+        <!-- Custom CSS -->
+        <link href="/public/css/main.css" rel="stylesheet">
+        
+    </head>
+  
+  <body>
+    
+    <main>
+      <div class="container" id="body">
+        Loading...
+      </div>
+    </main>
+
+    <!-- And also jQuery -->
+    <script src="/public/js/jquery-3.2.1.min.js"></script>
+    
+    <!-- Materialize javascript components -->
+    <script src="/public/materialize/js/materialize.min.js"></script>
+    
+    <!-- and our custom scripts -->
+    <script src="/public/js/viewer.js"></script>
+  </body>
+</html>
